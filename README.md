@@ -1,5 +1,5 @@
 # Commands
-curl https://packages.microsoft.com/config/debian/stretch/multiarch/prod.list > ./microsoft-prod.list
+'curl https://packages.microsoft.com/config/debian/stretch/multiarch/prod.list > ./microsoft-prod.list'
 
 sudo cp ./microsoft-prod.list /etc/apt/sources.list.d/
 
